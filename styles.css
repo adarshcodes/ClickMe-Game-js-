@@ -1,0 +1,28 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #1c7f9f, #0081b8, #0080d0, #427ae1, #7e6ee8, #b761da, #e153c3, #ff49a6, #ff677e, #ff975c, #ffc94a, #fbf85f);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    font-size: 3rem;
+    background-color: #fff;
+    padding: 2rem 3rem;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: all .2s;
+    outline: none;
+}
